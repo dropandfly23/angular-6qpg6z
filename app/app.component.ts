@@ -37,19 +37,18 @@ export class AppComponent {
   public events: SchedulerEvent[] = sampleData;
 
   public group: any = {
-    resources: ["Rooms"],
+    resources: ["Fourgon"],
     orientation: "vertical"
   };
 
   public resources: any[] = [
     {
-      name: "Rooms",
+      name: "Fourgon",
       data: [
         { text: "Fourgon 101", value: 1, color: "#6eb3fa" },
         { text: "Fourgon 201", value: 2, color: "#f58a8a" },
         { text: "Fourgon 301", value: 3, color: "#yellow" },
-        { text: "Fourgon 401", value: 4, color: "#yellow" }
-
+        { text: "Fourgon 401", value: 4, color: "#8af5c0" }
       ],
       field: "roomId",
       valueField: "value",
